@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Menu</title>
+        <link rel="stylesheet" href="Style.css" />
+        
+    </head>
+    <body>
+        <div id="bloc_page">
+            <header>
+                <figure>
+                    <a href="Accueil.html"> <img src="images/logo.png" alt="logo" title="A Pizzetta" /> </a>
+                </figure>
+
+                <nav>
+                    <ul>
+                        <li><a href="Accueil.html">Accueil</a></li>
+                        <li><a href="Menu.html">Menu</a></li>
+                        <li><a href="Pizza_Antoine.html">Pizza Antoine</a></li>
+                        <li id="page_courante"><a href="#">Nous contacter</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section>
+                <form method="post" action="traitement.php">
+                    <p>
+                        <label for="pseudo">Votre pseudo :</label>
+                        <input type="text" name="pseudo" id="pseudo" placeholder="Ex : Zozor" size="30" maxlength="10" />
+       
+                        <br />
+                        <label for="pass">Votre mot de passe :</label>
+                        <input type="password" name="pass" id="pass" />
+                    </p>
+                </form>
+            </section>
+        </div>
+    </body>
+</html>
